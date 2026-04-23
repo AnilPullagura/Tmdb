@@ -134,11 +134,11 @@ const TopRated = () => {
         {renderUi()}
         <div className="pagination-container">
           <button onClick={decreasePage} type="button">
-            -
+            Prev
           </button>
           <p>{pageNum}</p>
           <button onClick={increasePage} type="button">
-            +
+            Next
           </button>
         </div>
         <p className="page-details">
